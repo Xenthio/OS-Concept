@@ -6,7 +6,6 @@ One of the main goals I have in mind is to make a user friendly system for peopl
 If you have anything you would like to see or don't particularly like, i urge you to submit an issue as I want everyones views on how they prefer their system.
 ## Help is also very much welcome!
 I'm a horrible programmer, so if any mega brains wanna help me with bringing this system to life, please do :). I will forever be in your dept.
-(I can't get a kernel with a libc going for the life of me, like how is that possible?)
 
 ## The File System.
 The plan is for the File system to be clean and friendly to packages.
