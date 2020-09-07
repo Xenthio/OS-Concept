@@ -14,15 +14,19 @@ I might make some hidden symlink folders for /bin /usr /tmp and /etc for unix co
 - Applications      - For Applications, Obviously.
 - System            - For System Files, Obviously.
 - Users             - For Users Home folders. 
+- Core             - For Everything else, basically the etc folder.
+
+### Core Folder
 - Libraries         - For Development and Runtime Dependencies. These should be bundled with the application for user friendliness.
+- Binaries          - For Raw ELF Binaries, something like user installed compilers go here.
 - Drives            - For Filesystem Mounts, the name of the mount folder being the Volume label.
 - Config            - For Default Settings, these can be overritten (if allowed) by another Config folder in the users Home folder.
-- Other             - For Everything else, basically the etc folder.
 
 ### Home Folder
 The idea is to be as friendly as possible. hopefully a setting for the user to setup their own directory structure instead of pre-creating folders such as documents, pictures, videos, etc. Here is a decent default excluding those folders.
 - Other             - For Everything that the user doesn't make, This is where previously said Config folder will be.
 - Desktop           - Hopefully a Desktop, in the unlikely event that i can port or make a desktop enviroment. 
+
 ##### Optional Folders
 - Documents         - A place to keep all your documents in.
 - Videos            - So you can keep all your memories and shrek movie edits in one place.
